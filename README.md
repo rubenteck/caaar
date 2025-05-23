@@ -6,7 +6,7 @@ pip install slack_sdk
 or use docker:
 ```
 docker build -t python-imagename .
-docker run --rm --name CAAAR -e SLACK_WEBHOOK_URL=<SLACK_WEBHOOK_URL> -p 5000 python-imagename
+docker run --rm --name CAAAR -e SLACK_WEBHOOK_URL=<SLACK_WEBHOOK_URL> python-imagename
 ```
 ## env vars
 ```
